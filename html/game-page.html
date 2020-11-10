@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Click The Circle! Game</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../css/game-css.css">
+
+    <script src="../js/js-tutorials.js"></script>
+    <script src="../js/game-scripts.js"></script>
+</head>
+
+<body>
+    <div class="container" align="center">
+        <h1> Don't Click The Circle! Game </h1>
+        <div id="description">
+        	<p>Your mission is making the highest score in 1 minute. To doing this, just click the squares. Otherwise, the circles reduce your point by 1. If your score goes under the zero, you will lose.</p>
+        	<p><b>GOOD LUCK!</b></p>
+            <p><b>Time: </b><span id="timer"></span> </p>
+            <p><b>Score: </b> <span id="scoreBoard"></span></p>
+        </div>
+
+        <div id="playGround"></div>
+        <div style="padding-top: 10px;">
+            <button onclick="startGame()">Start Game</button>
+            <button onclick="stopGame()">Stop Game</button>
+            <button onclick="resetGame()">Reset Game</button>
+        </div>
+    </div>
+</body>
+
+</html>

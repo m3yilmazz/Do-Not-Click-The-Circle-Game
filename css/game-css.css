@@ -1,0 +1,28 @@
+#description {
+    width: 300px;
+}
+
+#playGround {
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+    border: black;
+    border-style: solid;
+    overflow-y: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.squareBox {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.circleBox {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
